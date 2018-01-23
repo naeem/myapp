@@ -20,8 +20,16 @@ $app-direction: ltr;
 // To customize the look and feel of this app, you can override
 // the Sass variables found in Ionic's source scss files.
 // To view all the possible Ionic variables, see:
-// http://ionicframework.com/docs/theming/overriding-ionic-variables/
+// http://ionicframework.com/docs/v2/theming/overriding-ionic-variables/
 
+$app-color:         #c0392b;
+$app-color-lighter: #C86358;
+$app-secondary:     #E9EAEB;
+$toolbar-background: $app-secondary;
+$refresher-icon-color: $app-color-lighter;
+$refresher-text-color: $app-color-lighter;
+$infinite-scroll-loading-color: $app-color-lighter;
+$infinite-scroll-loading-text-color: $app-color-lighter;
 
 
 
@@ -34,11 +42,15 @@ $app-direction: ltr;
 // The "primary" color is the only required color in the map.
 
 $colors: (
-  primary:    #488aff,
-  secondary:  #32db64,
-  danger:     #f53d3d,
-  light:      #f4f4f4,
-  dark:       #222
+  primary:        $app-color,
+  secondary:      $app-secondary,
+  light:          $app-color-lighter,
+  danger:         #f53d3d,
+  dark:           #222,
+  defect:         #f39c12,
+  good:           #32db64,
+  fault:          #f53d3d,
+  positive:            #488aff
 );
 
 

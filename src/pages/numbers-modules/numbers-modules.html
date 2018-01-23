@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      Math Numbers Modules
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page7">
+  <ion-grid id="mathModules-list5">
+    <ion-row class="header">
+      <ion-col col-10>Module</ion-col>
+      <ion-col col-2>%</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-10>Assessment 1</ion-col>
+      <ion-col col-2><ion-input type="number" placeholder="0"></ion-input></ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-10>Assessment 2</ion-col>
+      <ion-col col-2><ion-input type="number" placeholder="0"></ion-input></ion-col>
+    </ion-row>
+  </ion-grid>
+  <button id="mathModules-button1" ion-button color="positive" block on-click="goToMathModules()">
+    Save
+  </button>
+</ion-content>

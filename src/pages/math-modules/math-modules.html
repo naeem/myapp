@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      Math Modules
+    </ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only on-click="goToAddModule()">
+        <ion-icon name="add-circle"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page7">
+  <ion-grid id="mathModules-list5">
+    <ion-row class="header">
+      <ion-col col-10>Module</ion-col>
+      <ion-col col-2>%</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col on-click="goToNumbersModules()" col-10>Numbers, Operations and Relationships</ion-col>
+      <ion-col col-2><ion-input type="number" placeholder="0"></ion-input></ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-10>Patterns, Functions and Algebra</ion-col>
+      <ion-col col-2><ion-input type="number" placeholder="0"></ion-input></ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-10>Space and Shape</ion-col>
+      <ion-col col-2><ion-input type="number" placeholder="0"></ion-input></ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-10>Measurement</ion-col>
+      <ion-col col-2><ion-input type="number" placeholder="0"></ion-input></ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-10>Data Handling</ion-col>
+      <ion-col col-2><ion-input type="number" placeholder="0"></ion-input></ion-col>
+    </ion-row>
+  </ion-grid>
+  <button id="mathModules-button1" ion-button color="positive" block on-click="goToSubjects()">
+    Save
+  </button>
+</ion-content>
